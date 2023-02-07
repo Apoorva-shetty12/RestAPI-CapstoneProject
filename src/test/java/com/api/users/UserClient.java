@@ -1,9 +1,9 @@
 package com.api.users;
 
-import com.api.RequestWrapper;
+//import com.api.RequestWrapper;
 import com.api.users.create.CreatePostRequestBody;
 import com.api.users.create.CreateUserRequestBody;
-import com.api.users.create.response.RestAssureWrapper;
+//import com.api.users.create.response.RestAssureWrapper;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -14,7 +14,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 
 public class UserClient {
-    RestAssureWrapper restAssureWrapper = new RestAssureWrapper();
+    //RestAssureWrapper restAssureWrapper = new RestAssureWrapper();
 
     public Response create(CreateUserRequestBody body) {
         /*RequestWrapper requestWrapper = RequestWrapper.builder().header(Map.of("app-id", "63849396d9cf2f44805f4cd2"))
