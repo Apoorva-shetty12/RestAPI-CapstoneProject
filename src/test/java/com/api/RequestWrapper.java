@@ -1,4 +1,4 @@
-package com.api;
+/*package com.api;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -13,3 +13,5 @@ public class RequestWrapper {
     private Object body;
     private  Map<String, ?> pathParams;
 }
+
+ */
