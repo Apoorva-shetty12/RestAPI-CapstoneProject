@@ -22,7 +22,6 @@ public class CreateUserErrorResponse {
 
     @Getter
     public static class Data {
-
         private String email;
         private String firstName;
         private String lastName;

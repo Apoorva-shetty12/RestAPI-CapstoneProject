@@ -1,5 +1,6 @@
 package com.api;
 
+import com.api.users.PostService;
 import com.api.users.create.CreatePostRequestBody;
 import com.api.users.UsersService;
 import org.testng.annotations.BeforeClass;
@@ -7,11 +8,11 @@ import org.testng.annotations.Test;
 
 public class CreateAndGetPost {
 
-    UsersService usersService;
+    PostService postService;
 
     @BeforeClass
     public void beforeClass() {
-        usersService = new UsersService();
+        postService = new PostService();
     }
     @Test
     public void shouldCreatePostAndGetPostById(){
@@ -20,10 +21,10 @@ public class CreateAndGetPost {
         CreatePostRequestBody requestBody = new CreatePostRequestBody.Builder().build();
 
         //2.Act
-        String id = usersService.createPost(requestBody).getId();
+        String id = postService.createPost(requestBody).getId();
 
         //3.Assert
-        usersService.getPostById(id).assertPost(requestBody);
+        postService.getPostById(id).assertPost(requestBody);
 
     }
 }

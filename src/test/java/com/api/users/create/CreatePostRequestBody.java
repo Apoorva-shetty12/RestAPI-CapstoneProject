@@ -23,7 +23,7 @@ public class CreatePostRequestBody {
     }
 
 
-    public static class Builder{
+    public static class Builder {
         private String owner;
         private String image;
         private String text;
@@ -42,10 +42,15 @@ public class CreatePostRequestBody {
             return tags;
         }
 
-        public CreatePostRequestBody build(){
+        public CreatePostRequestBody build() {
             CreatePostRequestBody createPostRequestBody = new CreatePostRequestBody(this);
             return createPostRequestBody;
         }
 
+        public Builder owner(String owner) {
+            this.owner = owner;
+            return this;
+        }
     }
 }
+

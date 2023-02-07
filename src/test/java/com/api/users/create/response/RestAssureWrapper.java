@@ -19,6 +19,7 @@ public class RestAssureWrapper {
         RequestSpecification requestSpecification= given()
                 .headers(requestWrapper.getHeader())
                 .contentType(ContentType.JSON)
+                //pathparam here
                 .when();
         Response response = switch (requestWrapper.getHttpMethod().toUpperCase()) {
             case "POST" -> requestSpecification.body(requestWrapper.getBody()).post(baseURL + requestWrapper.getEndPoint());
