@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.api.integrationTests.E2ETest_1" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T06:24:52" hostname="Apoorvas-MacBook-Pro.local" time="2.401">
+  <properties/>
+  <testcase name="shouldCreatePostAndGetPostById" classname="com.api.integrationTests.E2ETest_1" time="2.401"/>
+  <system-out><![CDATA[{
+    "id": "63e1eeb43425cfd14f90dcae",
+    "firstName": "Apoorva",
+    "lastName": "Shetty",
+    "email": "07513f98-7812-47c9-ba36-e91efc6272d5@gmail.com",
+    "registerDate": "2023-02-07T06:24:52.543Z",
+    "updatedDate": "2023-02-07T06:24:52.543Z"
+}
+{
+    "id": "63e1eeb53425cf20ee90dcb4",
+    "image": "https://media.gettyimages.com/id/1333977253/photo/male-lion-resting-on-a-rock.jpg?s=612x612&w=gi&k=20&c=x785lj0J9oEVJXKB_I1yVsvRXjA4i7sdAte9W91-ZTA=",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "deer",
+        "buffalo"
+    ],
+    "text": "King of the forest",
+    "publishDate": "2023-02-07T06:24:53.028Z",
+    "updatedDate": "2023-02-07T06:24:53.028Z",
+    "owner": {
+        "id": "63e1eeb43425cfd14f90dcae",
+        "firstName": "Apoorva",
+        "lastName": "Shetty"
+    }
+}
+{
+    "id": "63e1eeb53425cf20ee90dcb4"
+}
+{
+    "error": "RESOURCE_NOT_FOUND"
+}
+{
+    "id": "63e1eeb43425cfd14f90dcae"
+}
+{
+    "error": "RESOURCE_NOT_FOUND"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
