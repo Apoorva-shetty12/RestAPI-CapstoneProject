@@ -14,7 +14,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'tech.grasshopper:allure-attachment-processor:2.1.0'
     implementation 'io.qameta.allure:allure-attachments:2.20.0'
     testImplementation group: 'org.testng', name: 'testng', version: '7.6.1'
     testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.1.1'
@@ -28,6 +27,8 @@ dependencies {
     implementation group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.20.1'
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.8.0'
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.20.1'
 
 }
 
